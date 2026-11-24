@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "missao-bigode",
+  "compatibility_date": "2026-11-01",
+  // Site estático: a Cloudflare publica a pasta site/ como está, sem etapa de build.
+  "assets": { "directory": "./site", "not_found_handling": "404-page" }
+}
